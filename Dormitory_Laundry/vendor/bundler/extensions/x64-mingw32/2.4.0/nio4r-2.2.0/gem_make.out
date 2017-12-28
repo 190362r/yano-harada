@@ -1,0 +1,14 @@
+current directory: C:/Users/yano yusuke/Documents/GitHub/yano-harada/Dormitory_Laundry/vendor/bundler/gems/nio4r-2.2.0/ext/nio4r
+C:/Ruby24-x64/bin/ruby.exe -r ./siteconf20171228-16832-mnq3oh.rb extconf.rb
+
+current directory: C:/Users/yano yusuke/Documents/GitHub/yano-harada/Dormitory_Laundry/vendor/bundler/gems/nio4r-2.2.0/ext/nio4r
+make "DESTDIR=" clean
+make: *** ターゲット 'clean' を make するルールがありません.  中止.
+
+current directory: C:/Users/yano yusuke/Documents/GitHub/yano-harada/Dormitory_Laundry/vendor/bundler/gems/nio4r-2.2.0/ext/nio4r
+make "DESTDIR="
+make: 'all' に対して行うべき事はありません.
+
+current directory: C:/Users/yano yusuke/Documents/GitHub/yano-harada/Dormitory_Laundry/vendor/bundler/gems/nio4r-2.2.0/ext/nio4r
+make "DESTDIR=" install
+make: 'install' に対して行うべき事はありません.

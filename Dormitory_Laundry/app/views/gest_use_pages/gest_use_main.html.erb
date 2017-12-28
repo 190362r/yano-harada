@@ -1,0 +1,32 @@
+<!-- 利用状況main画面 -->
+<%provide(:gest_use_title, "利用状況確認")%>
+<!DOCTYPE HTML>
+<html lang="ja">
+<!--タイトル-->
+  <head>
+    <meta charset="utf-8">
+    <title><%= yield(:gest_use_title)%></title>
+  </head>
+<!--本文  -->
+<body>
+<div class="use_main">
+<div>
+<h1><%= yield(:gest_use_title)%></h1>
+</div>
+
+  <div class="use_wash">
+<p>
+  <h2><%= link_to "洗濯機", '/gest_use_wash' %></h2>
+</p>
+</div>
+
+<div class="use_dry">
+  <p>
+    <h2><%= link_to "乾燥機", '/gest_use_dry' %></h2>
+  </p>
+</div>
+
+</div>
+
+</body>
+</html>
