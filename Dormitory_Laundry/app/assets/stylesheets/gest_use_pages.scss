@@ -15,7 +15,7 @@
 
 //利用状況メインー洗濯機ボタンCSS
 .use_wash{
-display: block;
+display:inline-block;
 padding: 30px 60px;
 margin: 15px;
 text-decoration: none;
@@ -34,7 +34,7 @@ border-radius: 3px;
 
 // 利用状況メイン―乾燥機ボタンCSS
 .use_dry{
-display: block;
+display: inline-block;
 padding: 30px 60px;
 margin: 15px;
 text-decoration: none;
