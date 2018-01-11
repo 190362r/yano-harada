@@ -14,17 +14,21 @@
 <h1><%= yield(:gest_use_title)%></h1>
 </div>
 
-  <div class="use_wash">
-<p>
-  <h2><%= link_to "洗濯機", '/gest_use_wash' %></h2>
-</p>
-</div>
+  <a href='/gest_use_wash'>
+   <div class="use_wash">
+    <p>
+     <h2><%= link_to "洗濯機", '/gest_use_wash' %></h2>
+    </p>
+   </div>
+  </a>
 
-<div class="use_dry">
-  <p>
-    <h2><%= link_to "乾燥機", '/gest_use_dry' %></h2>
-  </p>
-</div>
+  <a href='/gest_use_dry'>
+   <div class="use_dry">
+     <p>
+      <h2><%= link_to "乾燥機", '/gest_use_dry' %></h2>
+     </p>
+   </div>
+  </a>
 
 </div>
 

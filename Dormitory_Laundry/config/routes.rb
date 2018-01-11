@@ -1,6 +1,6 @@
 # coding: utf-8
 Rails.application.routes.draw do
-  get 'gest_use_pages/gest_use_main'
+  get 'gest_use_pages/gest_use_main', to:'gest_use_pages#gest_use_main'
 
   get '/gest_use_wash', to:'gest_use_pages#gest_use_wash'
 
