@@ -1,10 +1,4 @@
 button.button1{
-  /*文字サイズを1.4*/
-  font-size: 1.4em;
-
-  /*文字の太さをbold*/
-  font-weight: bold;
-
   /*背景色を青色に変更*/
   background-color: #248;
 
@@ -12,10 +6,7 @@ button.button1{
   padding: 30px 30px;
 
   /*ボタンの間隔*/
-  margin: 30px;
-
-  /*文字の色を白に変更*/
-  color: #fff;
+  margin: 10px 30px;
 
   /*ボーダーをなくす*/
   border-style: none;

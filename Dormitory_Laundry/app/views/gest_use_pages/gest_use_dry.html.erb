@@ -3,16 +3,26 @@
   <title>乾燥機利用状況</title>
  </head>
  <body>
-  <h1>乾燥機利用状況</h1>
-  
+  <div id="wrapper">
+   <header>
+     <div class="user">ユーザID:<%= current_user.user_id %>
+      <input type="button" onclick="location.href='/'" value="ログアウト" >
+      <!--<%= button_to "ログアウト", sessions_path  %>-->
+     </div>
+     <div class="notice"><div class="mail"><%= image_tag 'mail_whi.gif' %></div></div>
+     <p class="title">ランドリー状況確認システム</p>
+   </header>
+     <div class="pagetitle">
+       <h1 class="textcenter"> 乾燥機利用状況 </h1>
+     </div>
+
   <form>
-  <h4>南側乾燥機</h4><br>
-  <button class="button1" type ="submit">1</button>
-  <button class="button1" type ="submit">2</button>
-  <button class="button1" type ="submit">3</button><br>
-  <button class="button1" type ="submit">4</button>
-  <button class="button1" type ="submit">5</button>
-  <button class="button1" type ="submit">6</button>
+  <button class="button1" type ="submit"> </button>
+  <button class="button1" type ="submit"> </button>
+  <button class="button1" type ="submit"> </button><br>
+  <button class="button1" type ="submit"> </button>
+  <button class="button1" type ="submit"> </button>
+  <button class="button1" type ="submit"> </button>
   </form>
  </body>
 </html>
