@@ -3,8 +3,10 @@ class GestUsePagesController < ApplicationController
   end
 
   def gest_use_wash
+	@washStatus= Use.all
   end
 
   def gest_use_dry
+	@dryStatus= Use.all
   end
 end

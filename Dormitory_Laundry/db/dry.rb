@@ -1,4 +1,4 @@
-
+//seedに同じ事書いたからいらないかも 
 Use.create(facility: '1W01', situation: '0', time: '0000-00-00 00:00:00', userID:NULL)
 Use.create(facility: '1W02', situation: '0', time: '0000-00-00 00:00:00', userID:NULL)
 Use.create(facility: '1W03', situation: '0', time: '0000-00-00 00:00:00', userID:NULL)

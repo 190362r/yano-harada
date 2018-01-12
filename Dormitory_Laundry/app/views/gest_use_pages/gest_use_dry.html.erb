@@ -17,7 +17,6 @@
      </div>
 
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; ">
-  <form>
   <button class="button1" type ="submit"> </button>
   <button class="button1" type ="submit"> </button>
   <button class="button1" type ="submit"> </button><br>
@@ -27,8 +26,13 @@
   <button class="button1" type ="submit"> </button>
   <button class="button1" type ="submit"> </button>
   <button class="button1" type ="submit"> </button>
-
-  </form>
 </div>
+
+<p>
+<% @dryStatus.each do |use| %>
+[設備] <%= use.facility %><br />
+<% end %>
+</p>
+
  </body>
 </html>
