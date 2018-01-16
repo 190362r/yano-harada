@@ -1,0 +1,23 @@
+
+.box_left {
+    color: #FFF;
+    width:100px;
+    height:100px;
+    margin:10px;
+    float:left;
+    background-color:#F00;
+}
+
+.box_wrap {
+
+}
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+.center {
+	margin:0 auto;
+
+}

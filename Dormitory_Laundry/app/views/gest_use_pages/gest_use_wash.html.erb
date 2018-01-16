@@ -1,6 +1,7 @@
 <html>
  <head>
   <title>洗濯機利用状況</title>
+  <link rel="stylesheet" href="float.css">
  </head>
  <body>
   
@@ -16,26 +17,46 @@
      <div class="pagetitle">
        <h1 class="textcenter"> 洗濯機利用状況 </h1>
      </div>
+<div class="center">
+<div class="clearfix box_wrap">
+    <div class="box_left">
+        1
+    </div>
+    <div class="box_left">
+        2
+    </div>
+    <div class="box_left">
+        3
+    </div>
+    <div class="box_left">
+        4
+    </div>
 
-<div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; ">
-  <button class="button2" type ="submit"> </button>
-  <button class="button2" type ="submit"> </button>
-  <button class="button2" type ="submit"> </button><br>
-  <button class="button2" type ="submit"> </button>
-  <button class="button2" type ="submit"> </button>
-  <button class="button2" type ="submit"> </button><br>
-  <button class="button2" type ="submit"> </button>
-  <button class="button2" type ="submit"> </button>
-  <button class="button2" type ="submit"> </button>
+</div><br>
+<div class="clearfix box_wrap">
+    <div class="box_left">
+        5
+    </div>
+    <div class="box_left">
+        6
+    </div>
+    <div class="box_left">
+        7 
+    </div>
+    <div class="box_left">
+        8
+    </div>
+
+</div><br>
+<div class="clearfix box_wrap">
+    <div class="box_left">
+        9
+    </div>
+</div>
 </div>
 
-<p>
-<% @washStatus.each do |use| %>
-[設備] <%= use.facility %><br />
-<% end %>
-</p>
+<%= @wash1.situation %>
 
-
- </body>
+</body>
 </html>
 

@@ -1,6 +1,6 @@
 button.button1{
-  /*背景色を青色に変更*/
-  background-color: #248;
+  /*背景色を赤色に変更*/
+  background-color: #FF0000;
 
   /*余白の設定 縦px 横px*/
   padding: 30px 30px;
@@ -11,3 +11,11 @@ button.button1{
   /*ボーダーをなくす*/
   border-style: none;
 }
+.0{
+background: red;
+}
+
+.1{
+background: blue;
+}
+
