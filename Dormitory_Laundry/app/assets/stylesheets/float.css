@@ -7,6 +7,15 @@
     float:left;
     background-color:#F00;
 }
+.box_rigth{
+    color: #FFF;
+    width:100px;
+    height:100px;
+    margin:10px;
+    float:left;
+    background-color:#00F;
+}
+
 
 .box_wrap {
 
